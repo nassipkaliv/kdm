@@ -73,7 +73,7 @@ header {
 }
 
 a {
-  color: #000;
+  color: #000 !important;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -141,4 +141,107 @@ svg:not(:root) {
 
 .header__menu-col2 {
   padding-right: 32px;
+}
+
+.bottomNewHeaderBlock {
+  padding: 8px 40px;
+}
+
+.bottomNewHeaderBlock .main-menu {
+  border: none;
+}
+
+.main-menu {
+  margin: 0 0;
+  border: 1px solid;
+  border-color: rgba(101, 101, 101, 0.25);
+  border-radius: 10px;
+}
+
+.main-menu__list_flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -moz-box-flex: 1;
+  flex: 1 1 auto;
+  font-weight: bold;
+}
+
+.bottomNewHeaderBlock .main-menu .nav-fill .nav-item {
+  height: auto;
+  padding: 0 1rem 0 0;
+}
+
+.main-menu .nav-fill .nav-item {
+  height: 78px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 18px;
+  text-align: left !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem 1rem 1.5rem 0;
+}
+
+.bottomNewHeaderBlock .main-menu .nav-link {
+  border: none;
+  padding: 0;
+}
+
+.main-menu .nav-link {
+  display: block;
+  padding: 0 0 0 28px;
+  border-left: 1px solid #E1EAEA;
+}
+
+.main-menu a {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.nav-link--left {
+  border: none !important;
+}
+
+.main-menu .nav-link .ssm, .main-menu .nav-link .portfolio, .main-menu .nav-link .seo {
+  position: relative;
+}
+
+.color-orange {
+  color: #F27255 !important;
+}
+
+.main-menu .nav-link .seo span {
+  right: -27px;
+  top: -2px;
+}
+
+.main-menu .nav-link .portfolio svg {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #E66950;
+  position: absolute;
+  right: -20px;
+  top: -8px;
+}
+
+.main-menu .nav-link .ssm span, .main-menu .nav-link .seo span {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #E66950;
+  position: absolute;
+  right: -27px;
+  top: -2px;
 }
