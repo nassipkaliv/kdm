@@ -394,3 +394,59 @@ svg:not(:root) {
 .f-24 {
   font-size: 24px;
 }
+
+section.topTarifSect {
+  margin-top: -278px;
+  z-index: 2;
+  position: relative;
+}
+
+.topTarifSect:before {
+  content: "";
+  position: absolute;
+  width: 500%;
+  height: calc(194% + 161px);
+  top: 280px;
+  left: -200%;
+  z-index: -1;
+  background-color: #F5F5F5;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-3.2deg);
+}
+
+section.topTarifSect .col-12 {
+  max-width: 420px !important;
+}
+
+.vkrPriceBlock {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transform: translate(0);
+}
+
+.vkrPriceBlockHead {
+  padding: 20px 25px;
+  background: #F5F5F5;
+}
+
+.colTarifNew {
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.vkrPriceBlockHeadDescr {
+  font-size: 18px;
+  line-height: 27px;
+  font-size: 16px;
+  line-height: 24px;
+}
