@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Muller", sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+header {
+  position: relative;
+  z-index: 99;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media (min-width: 544px) {
+  .container {
+      max-width: 576px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      max-width: 940px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1440px;
+  }
+}
+
+.header-top {
+  border: 1px solid #F5F5F5;
+  border-radius: 10px;
+  padding: 8px 40px;
+}
+
+.warp_soc_heder a img {
+  width: 20px;
+  height: 20px;
+}
+
+.warp_soc_heder {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  transition: all 0.3s;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 250px;
+  line-height: 18px;
+}
+
+.newHeaderLink img {
+  max-width: 70px;
+}
+
+.header__logo.logo {
+  transition: all .1s linear;
+}
+
+.newHeaderLink .logo-text {
+  padding: 0px 0 0px 8px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.logo-text .logo-big-text {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
