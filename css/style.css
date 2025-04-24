@@ -672,6 +672,11 @@ section.topTarifSect .col-12 {
   margin-bottom: 94px;
 }
 
+.index-section-3 {
+  position: relative;
+  margin-bottom: 120px;
+}
+
 .index-section-3 .title_block .container, .newALlOfMark {
   max-width: initial;
   margin: 0 auto;
@@ -689,4 +694,45 @@ section.topTarifSect .col-12 {
 
 .f-60 {
   font-size: 60px;
+}
+
+.newALlOfMarkNew {
+  z-index: 2;
+  margin-top: -80px;
+  max-width: 1920px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 50px;
+  background-position-y: bottom;
+}
+
+.noBgBefore:before {
+  background-color: inherit !important;
+}
+
+.index-section-3:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: calc(75% + 150px);
+  top: -75px;
+  left: -50%;
+  z-index: -1;
+  background-color: #F5F5F5;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.newALlOfMarkNew:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
+  z-index: 1;
 }
