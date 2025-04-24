@@ -417,10 +417,6 @@ section.topTarifSect {
   transform: rotate(-3.2deg);
 }
 
-section.topTarifSect .col-12 {
-  max-width: 420px !important;
-}
-
 .vkrPriceBlock {
   background: #FFFFFF;
   box-shadow: 0px 4px 40px rgb(0 0 0 / 25%);
@@ -449,4 +445,248 @@ section.topTarifSect .col-12 {
   line-height: 27px;
   font-size: 16px;
   line-height: 24px;
+}
+
+.hoverTooltip>svg {
+  cursor: pointer;
+}
+
+.tooltipBlock {
+  position: absolute;
+  min-width: 180px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #D5D9DE;
+  top: -15px;
+  left: 35px;
+  filter: drop-shadow(0px 0px 3px #D5D9DE);
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 7;
+}
+
+.tooltipBlock:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 16px;
+  width: 13px;
+  height: 13px;
+  background: #ffffff;
+  transform: rotate(45deg);
+  border-left: 1px solid #D5D9DE;
+  border-bottom: 1px solid #D5D9DE;
+}
+
+.tooltipBlock .row>div:not(:last-child)>.listItemOrange {
+  margin-bottom: 5px;
+}
+
+section.topTarifSect .col-12 {
+  max-width: 420px !important;
+}
+
+.listItemOrange {
+  font-size: 11px;
+  line-height: 16px;
+  color: #8A8886;
+  font-weight: 400;
+  padding-left: 6px;
+  padding-right: 7px;
+  position: relative;
+}
+
+.tabletTarifWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  min-height: 60px;
+}
+
+.tabletTarifItem:not(:last-child) {
+  margin-right: 6px;
+}
+
+.tabletTarifItem {
+  background: #FFFFFF;
+  border-radius: 100px;
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 8px 5px 8px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.vkrPriceBlockContent {
+  padding: 20px 25px 0 30px;
+}
+
+.tarifIntroText {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.mobileButtonOpenTarif {
+  margin-top: 20px;
+  text-align: center;
+  color: #0080FF;
+  text-decoration: underline;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none !important;
+}
+
+.vkrPriceOpenMobContent {
+  overflow: hidden;
+  border-top: 1px solid #D3D7DB;
+  padding-top: 20px;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.vkrPriceBlockContent ul {
+  padding-left: 15px;
+}
+
+.vkrPriceBlockContent ul li {
+  color: #C7CACD;
+  text-align: left;
+  padding-left: 0;
+  padding-bottom: 20px;
+  text-decoration: line-through;
+  line-height: 24px;
+}
+
+.vkrPriceBlockContent ul li.active {
+  color: #E66950;
+  text-decoration: none;
+}
+
+.vkrPriceBlockContent ul li span {
+  color: #C7CACD;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.vkrPriceBlockContent ul li.active span {
+  color: #656565;
+}
+
+.vkrPriceBlockContent ul li.active.dopActive span {
+  color: #ABAFB3;
+}
+
+.vkrPriceBlockContent ul li.active.dopActive {
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 21px;
+  font-style: italic;
+  font-weight: 400;
+  color: transparent;
+}
+
+.vkrPriceBlockContent ul li.active.dopActive.fw-500 {
+  font-weight: 500;
+}
+
+.vkrPriceBlockBottom {
+  padding: 0 30px 20px 30px;
+}
+
+.tabletTarifItem.bg-orange {
+  background: #E66950;
+  color: #ffffff;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.font-italic {
+  padding-right: 11px;
+}
+
+.vkrPriceBlackBlock {
+  background: #262626;
+  box-shadow: 0px 4px 40px rgb(0 0 0 / 5%);
+  border-radius: 20px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.vkrPriceBlackBlock .vkrPriceBlackBlockTop {
+  background: #3B3B3B;
+}
+
+.vkrPriceBlackBlockTop:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.vkrPriceBlackBlockTop {
+  position: relative;
+  padding: 20px 34px 45px 34px;
+}
+
+.vkrPriceBlackBlock .colTarifNew {
+  color: #0080FF;
+}
+
+.vkrPriceBlackBlock .tabletTarifItem {
+  background: #262626;
+}
+
+.vkrPriceBlackBlock .tarifIntroText {
+  color: #ffffff;
+}
+
+.vkrPriceBlackBlock .vkrPriceOpenMobContent {
+  border-top: 1px solid #454545;
+}
+
+.vkrPriceBlackBlock .vkrPriceOpenMobContent ul li.active span {
+  color: #ABABAB;
+}
+
+.vkrPriceBlackBlock .vkrPriceOpenMobContent ul li.active.dopActive span {
+  color: #979B9F;
+}
+
+.bottomTitleTopTarif {
+  margin-top: -150px;
+  margin-bottom: 0;
+}
+
+.index-section-3 .title_block {
+  margin-top: 80px;
+  margin-bottom: 94px;
+}
+
+.index-section-3 .title_block .container, .newALlOfMark {
+  max-width: initial;
+  margin: 0 auto;
+}
+
+.f-140-07 {
+  font-size: 140px;
+  line-height: 90px;
+}
+
+.title_font_big {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.f-60 {
+  font-size: 60px;
 }
