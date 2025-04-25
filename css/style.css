@@ -316,11 +316,46 @@ svg:not(:root) {
   background: #0080FF;
   border-radius: 6px;
   font-size: 16px;
-  color: white;
+  color: white !important;
   font-weight: 400;
   -webkit-box-shadow: 0px 8px 14px rgba(0, 128, 255, 0.35);
   -moz-box-shadow: 0px 8px 14px rgba(0, 128, 255, 0.35);
   box-shadow: 0px 8px 14px rgba(0, 128, 255, 0.35);
+  max-width: 280px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.orange-button, .orange-button-link {
+  background: #E66950;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white !important;
+  font-weight: 400;
+  -webkit-box-shadow: 4px 4px 12px rgba(238, 115, 90, 0.4);
+  -moz-box-shadow: 4px 4px 12px rgba(238, 115, 90, 0.4);
+  box-shadow: 4px 4px 12px rgba(238, 115, 90, 0.4);
   max-width: 280px;
   width: 100%;
   height: 60px;
@@ -769,4 +804,255 @@ section.topTarifSect .col-12 {
 
 .font-bold {
   font-weight: 700;
+}
+
+.index-section-5 .ceil{
+  padding: 5px 5px 35px 0px;
+}
+.index-section-5 .ceil-img,
+.index-section-4 .ceil-img{
+  float: left;
+  max-width: 100px;
+  width: 100px;
+}
+.index-section-5 .ceil-text-title,
+.index-section-4 .ceil-text-title{
+  font-weight: 500;
+}
+.index-section-5 .ceil-text{
+  padding: 8px 0 0 110px;
+}
+.index-section-4 .ceil-text{
+  padding: 8px 0 0 120px;
+}
+.fw-500imp{
+  font-weight: 500 !important;
+}
+.lh-21{
+  line-height: 21px;
+}
+.fz12{
+  line-height: 18px;
+}
+.index-section-4 .price {
+  font-size: 16px;
+}
+
+@media all and (max-width: 768px){
+  .index-section-5 .ceil-img, .index-section-4 .ceil-img {
+      float: left;
+      max-width: 80px;
+      width: 100px;
+  }
+  .index-section-5 .ceil-img.hokkingImg{
+      height: 80px;
+      width: auto;
+      max-width: initial;
+      margin-left: -10px;
+  }
+  .index-section-4 .ceil-text,
+  .index-section-5 .ceil-text{
+      padding: 8px 0 0 0;
+  }
+  .index-section-4 .ceil,
+  .index-section-5 .ceil{
+      min-height: auto;
+      padding: 0px 5px 0px 0px;
+      margin-bottom: 60px;
+  }
+  .index-section-5 .title-row {
+      margin-top: 50px;
+      margin-bottom: 60px;
+  }
+  .index-section-4:before{
+      transform: rotate(-4deg);
+  }
+}
+
+.index-section-5 .ceil-img, .index-section-4 .ceil-img {
+  float: none;
+  max-width: 200px;
+  width: 200px;
+  max-height: 200px;
+}
+.index-section-4 .ceil,
+.index-section-5 .ceil{
+  display: flex;
+}
+.index-section-4 .ceil-text,
+.index-section-5 .ceil-text {
+  padding: 5px 85px 0 40px;
+}
+
+.index-section-4 .ceil-text .ceil-text-title,
+.index-section-5 .ceil-text .ceil-text-title {
+  font-weight: 500;
+}
+.index-section-4 .ceil-text p,
+.index-section-5 .ceil-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.index-section-4 .description{
+  width: 680px;
+}
+.clickImgLike,
+.clickImgLike img,
+.clickImgLike svg{
+  user-select: none;
+}
+.clickImgLike svg{
+  position: absolute;
+  top: 22px;
+  left: 25px;
+}
+.clickImgLike svg path{
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.clickImgLike svg path.active{
+  opacity: 1;
+}
+@media all and (max-width: 991px){
+  .index-section-5 .ceil-img, .index-section-4 .ceil-img {
+      max-width: 100px;
+      width: 100px;
+  }
+  .index-section-4 .ceil,
+  .index-section-5 .ceil{
+      display: flex;
+      flex-direction: column;
+      min-height: auto;
+  }
+  .index-section-4 .ceil-text,
+  .index-section-5 .ceil-text {
+      padding: 0;
+  }
+  .index-section-4 .ceil-text p, .index-section-5 .ceil-text p {
+      font-size: 14px;
+      line-height: 24px;
+  }
+}
+
+.index-section-4 {
+  position: relative;
+  padding: 20px 30px 198px;
+}
+
+.index-section-4:before {
+  content: "";
+  position: absolute;
+  width: 500%;
+  height: calc(85% + 150px);
+  top: -75px;
+  left: -200%;
+  z-index: -1;
+  background-color: #F5F5F5;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.title_font_huge {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.index-section-4 .warp_block_1 {
+  margin-bottom: 85px;
+}
+
+.index-section-4 .warp_block_1 > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.index-section-4 .h-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.index-section-4 .h-title br {
+  display: none;
+}
+
+.index-section-4 .description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  width: 543px;
+}
+
+.index-section-4 .description {
+  width: 680px;
+}
+
+.index-section-4 .price {
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #F27255;
+  padding: 1px 7px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.index-section-4 .price {
+  font-size: 16px;
+}
+
+.index-section-4 .tarif {
+  margin-top: 15px;
+}
+
+.index-section-4 .tarif a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #0080FF !important;
+}
+
+.index-section-5 .ceil-img, .index-section-4 .ceil-img {
+  float: none;
+  max-width: 200px;
+  width: 200px;
+  max-height: 200px;
+}
+
+.index-section-4 .ceil-text {
+  padding: 8px 0 8px 90px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #656565;
+}
+
+.index-section-4 .ceil-text-title {
+  color: #262626;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.index-section-5 .ceil-text-title, .index-section-4 .ceil-text-title {
+  font-weight: 500;
+}
+
+.index-section-4 .ceil-text, .index-section-5 .ceil-text {
+  padding: 5px 85px 0 40px;
+}
+
+.index-section-4 .ceil-text p, .index-section-5 .ceil-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.index-section-4 .blue-button {
+  margin: 66px auto 0;
 }
