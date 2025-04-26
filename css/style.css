@@ -820,6 +820,16 @@ section.topTarifSect .col-12 {
 .index-section-4 .ceil-text-title{
   font-weight: 500;
 }
+
+.index-section-5 .ceil-text-title {
+  color: #262626;
+  margin-bottom: 15px;
+}
+
+.index-section-5 .ceil {
+  min-height: 200px;
+}
+
 .index-section-5 .ceil-text{
   padding: 8px 0 0 110px;
 }
@@ -880,6 +890,14 @@ section.topTarifSect .col-12 {
 .index-section-5 .ceil{
   display: flex;
 }
+
+.index-section-5 .ceil-text {
+  padding: 8px 0 0 90px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #656565;
+}
+
 .index-section-4 .ceil-text,
 .index-section-5 .ceil-text {
   padding: 5px 85px 0 40px;
@@ -1179,4 +1197,25 @@ section.topTarifSect .col-12 {
 .videoButtonPlayBlack {
   border: 1px solid #262626;
   color: #262626;
+}
+
+.index-section-5 {
+  padding: 0 30px 5px;
+}
+
+.big-block {
+  margin-bottom: 70px;
+}
+
+.index-section-5 .title-row {
+  margin-bottom: 90px;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+
+.button360 {
+  margin: 0 auto;
+  min-width: 360px;
 }
