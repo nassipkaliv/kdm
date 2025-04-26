@@ -1387,3 +1387,76 @@ section.vkr-index-section-clients {
   background: #F27255;
   margin-bottom: 28px;
 }
+
+section.index-section-cool {
+  padding: 30px 75px 0;
+  position: relative;
+}
+
+.vkrCoolBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  color: #ffffff;
+}
+
+.vkrCoolBlock .blue-button {
+  position: relative;
+  z-index: 10;
+}
+
+.vkrCoolBlockImg {
+  max-width: 763px;
+}
+
+.vkrCoolBlockImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.vkrCoolBlockImg img {
+  width: 100%;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 250px;
+  line-height: 18px;
+}
+
+footer .logo {
+  width: auto;
+}
+
+.footer .logo-text {
+  padding: 11px 0 2px 97px;
+}
+
+.logo-img-div {
+  width: 70px;
+}
+
+.footer .censor {
+  font-size: 18px;
+  margin-top: 22px;
+  font-weight: 500;
+  text-align: start;
+}
+
+.logo-text .logo-big-text {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+footer .logo-text .logo-big-text {
+  font-weight: 400;
+}
+
+.footer .copyright-years {
+  font-size: 14px;
+  margin-top: 31px;
+}
