@@ -1228,6 +1228,10 @@ section.topTarifSect .col-12 {
   color: #656565;
 }
 
+.color-gray {
+  color: #656565 !important;
+}
+
 .lineTextImg {
   position: absolute;
   left: 0;
@@ -1432,7 +1436,7 @@ footer .logo {
 }
 
 .footer .logo-text {
-  padding: 11px 0 2px 97px;
+  padding: 11px 0 2px 37px;
 }
 
 .logo-img-div {
@@ -1459,4 +1463,89 @@ footer .logo-text .logo-big-text {
 .footer .copyright-years {
   font-size: 14px;
   margin-top: 31px;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.logo a {
+  display: flex;
+}
+
+.footer .phones {
+  font-size: 18px;
+  margin: 15px 0 30px;
+}
+
+.footer .social-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .social-top.pl-lg-4 {
+  justify-content: start;
+}
+
+.footer .social-top {
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+
+.social-icons a img, .mobile-menu .social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .social-politic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .social-politic a {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.footer .social_groups {
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.footer .social-top.ps-lg-4 {
+  justify-content: start;
+  align-items: center;
+}
+
+.footer .sitemap {
+  margin-right: 10.5%;
+}
+
+.footer .social-politic a {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
