@@ -299,6 +299,11 @@ svg:not(:root) {
 .z-index-1 {
   z-index: 1;
 }
+
+.z-index-2 {
+  z-index: 2;
+}
+
 .mobTopImgBlock {
   display: none;
   position: absolute;
@@ -315,7 +320,7 @@ svg:not(:root) {
 .blue-button, .blue-button-link {
   background: #0080FF;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 15px;
   color: white !important;
   font-weight: 400;
   -webkit-box-shadow: 0px 8px 14px rgba(0, 128, 255, 0.35);
@@ -350,7 +355,7 @@ svg:not(:root) {
 .orange-button, .orange-button-link {
   background: #E66950;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 15px;
   color: white !important;
   font-weight: 400;
   -webkit-box-shadow: 4px 4px 12px rgba(238, 115, 90, 0.4);
@@ -717,15 +722,11 @@ section.topTarifSect .col-12 {
   margin: 0 auto;
 }
 
-.f-140-07 {
-  font-size: 140px;
-  line-height: 90px;
-}
-
 .title_font_big {
   font-size: 40px;
   line-height: 60px;
 }
+
 
 .f-60 {
   font-size: 60px;
@@ -961,6 +962,11 @@ section.topTarifSect .col-12 {
   line-height: 70px;
 }
 
+.f-140-07 {
+  font-size: 140px;
+  line-height: 90px;
+}
+
 .index-section-4 .warp_block_1 {
   margin-bottom: 85px;
 }
@@ -1055,4 +1061,122 @@ section.topTarifSect .col-12 {
 
 .index-section-4 .blue-button {
   margin: 66px auto 0;
+}
+
+.videoBlockContainer {
+  position: relative;
+}
+
+.videoBlockContainer:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  height: calc(100% + 240px);
+  width: 200%;
+  background: whitesmoke;
+  transform: rotate(-2deg);
+  top: -260px;
+}
+
+.videoTitle {
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 140px;
+  color: #E8E8E9;
+  margin-bottom: -40px;
+  margin-left: -35px;
+}
+
+.videoBlockWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.videoItemBlock {
+  background: #262626;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 449px;
+  padding: 60px 10px 40px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.videoTabletWrap {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+
+}
+
+.videoTablet {
+  font-size: 12px;
+  background: #0080FF;
+  color: #ffffff;
+  border-radius: 100px;
+  line-height: 21px;
+  padding: 1px 17px;
+}
+
+.imgVideoBlock {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.videoBlockTitle {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.videoBlockDescription {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #ABABAB;
+  text-align: center;
+}
+
+.videoButtonPlay {
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 9px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.videoItemBlockOrange {
+  background: #E66950;
+}
+
+.videoItemBlockWhite {
+  background: #ffffff;
+}
+
+.videoBlockTitleOrange {
+  color: #E66950;
+}
+
+.videoButtonPlayBlack {
+  border: 1px solid #262626;
+  color: #262626;
 }
