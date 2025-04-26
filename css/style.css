@@ -1219,3 +1219,18 @@ section.topTarifSect .col-12 {
   margin: 0 auto;
   min-width: 360px;
 }
+
+.container-fluid.bg-gray {
+  background-color: #F5F5F5;
+}
+
+.color-grey {
+  color: #656565;
+}
+
+.lineTextImg {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+}
