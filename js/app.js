@@ -10,3 +10,12 @@ const swiper = new Swiper('.swiper', {
   allowTouchMove: true,    
   freeMode: false,         
 });
+
+window.addEventListener('scroll', function() {
+  const header = document.getElementById('scrollHeaderMenu');
+  if (window.scrollY > 100) {
+      header.classList.add('active');
+  } else {
+      header.classList.remove('active');
+  }
+});
