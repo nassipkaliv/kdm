@@ -436,7 +436,7 @@ svg:not(:root) {
 }
 
 .color-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .index-section-1 .only-border {
@@ -1763,6 +1763,21 @@ div#scrollHeaderMenu .bottomNewHeaderBlock {
   width: 80%;
 }
 
+br.onlyMob {
+  display: none;
+}
+
+.bottom {
+  background-color: #656565;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.bottom p {
+  color: #fff;
+  opacity: 0.5;
+}
+
 @media (max-width: 1200px) {
   .newHeaderWrap {
       position: relative;
@@ -2007,7 +2022,10 @@ div#scrollHeaderMenu .bottomNewHeaderBlock {
     margin-bottom: 20px;
   }
 
-
+  .f-140-07 {
+    font-size: 140px;
+    line-height: 90px;
+  } 
 
 }
 
@@ -2171,6 +2189,23 @@ div#scrollHeaderMenu .bottomNewHeaderBlock {
     margin-top: 19px;
   }
 
+  .footer .social-icons a {
+    width: 25px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* -webkit-transition: 0.3s opacity; */
+    -o-transition: 0.3s opacity;
+    -moz-transition: 0.3s opacity;
+    transition: 0.3s opacity;
+    margin-right: 14px;
+    height: 25px;
+    display: block;
+}
+
   .footer .social-top {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2214,5 +2249,226 @@ div#scrollHeaderMenu .bottomNewHeaderBlock {
     margin-right: 0;
   }
   
+  .f-140-07 {
+    font-size: 140px;
+    line-height: 90px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .index-section-1 .text-block {
+    max-width: 330px;
+  }
+
+  .index-section-1 .f-32 {
+    font-size: 42px;
+    line-height: 37px;
+  }
+
+  .vkrPriceBlockHead, .vkrPriceBlackBlockTop {
+    padding: 20px 20px;
+  }
+
+  .vkrPriceBlockHead>.f-32, .vkrPriceBlackBlockTop>.f-32 {
+    font-size: 28px;
+    line-height: 25px;
+  }
+
+  .vkrPriceBlockHeadDescr {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px !important;
+  }
+
+  .tabletTarifWrap {
+    margin-bottom: 0 !important;
+    min-height: auto;
+  }
   
+  .tarifIntroText {
+    margin-bottom: 20px;
+  }
+
+  .mobileButtonOpenTarif {
+    margin-bottom: 25px;
+    font-weight: 300;
+  }
+
+  .vkrPriceOpenMobContent {
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: none !important;
+    margin-bottom: 20px;
+  }
+
+  .vkrPriceOpenMobContent {
+    max-height: 100% !important;
+    margin-bottom: 0;
+  }
+
+  .index-section-4 .ceil, .index-section-5 .ceil {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .index-section-4 .ceil-text, .index-section-5 .ceil-text {
+    padding: 0;
+  }
+
+  .index-section-4 .ceil-text p, .index-section-5 .ceil-text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .index-section-5 .ceil-img, .index-section-4 .ceil-img {
+    max-width: 100px;
+    width: 100px;
+  }
+
+  .videoTitle {
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: -20px;
+  }
+
+  .videoBlockTitle {
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  .pad1200 .phones.font-bold {
+    display: none !important;
+  }
+
+  .bottom {
+    background: #000000;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .pad1200 .phones.font-bold {
+    margin-bottom: 0px;
+  }
+
+  .address {
+    text-align: start !important;
+    padding-right: 10%;
+  } 
+
+  .topTarifSect:before {
+    height: calc(190% + 150px) !important; 
+  }
+
+  .vkrPriceBlockContent, .vkrPriceBlackBlockContent {
+    position: relative;
+    padding: 20px 20px 0 20px;
+    padding-bottom: 30px !important;
+  }
+
+  .bottomTitleTopTarif {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .newtopTarifSect .row.title_block {
+    margin-bottom: 0;
+  }
+
+  .f-140-07 {
+    line-height: 50px !important;
+  }
+
+  .f-60mob {
+    font-size: 60px !important;
+  }
+
+  .f-60 {
+    font-size: 35px !important;
+    line-height: 50px;
+  }
+
+  .f-80mob {
+    font-size: 80px !important;
+  }
+
+  .newALlOfMarkNew {
+    margin-top: 0 !important;
+  }
+
+  .aLlOfMarkNewFootBlock {
+    margin-bottom: 100px;
+  }
+
+  .index-section-cool-bg {
+    margin-bottom: 0;
+  }
+
+  .mobFooterBg {
+    background: #262626;
+    color: #ffffff;
+  }
+
+  .footer .logo a .logo-img-div {
+    margin-right: 10px;
+  }
+
+  .footer .copyright-years {
+    margin-top: 10px;
+  }
+
+  .mobFooterTel .phones {
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .mobFooterTel {
+    width: auto;
+  }
+
+  .mobFooterBg a {
+    color: #ffffff !important;
+  }
+
+  .noBorder {
+    border: none !important;
+  }
+
+  .noPadMob {
+    padding-bottom: 15px !important;
+  }
+
+  .bottom {
+    margin-top: 0 !important;
+  }
+
+  .mobSocFooter a {
+    width: 35px !important;
+  }
+
+  .mobSocFooter {
+    min-width: 130px;
+  }
+
+  .mobFooterBg a {
+    color: #ffffff;
+  }
+
+  .politicaMob {
+    display: block;
+  }
+
+  .mobAlignStart {
+    align-items: start !important;
+    padding-bottom: 0 !important;
+  }
+
+}
+
+@media (max-width: 980px) {
+  .vkrCoolBlock {
+      padding-bottom: 328px;
+  }
 }
