@@ -1932,4 +1932,76 @@ div#scrollHeaderMenu .bottomNewHeaderBlock {
     height: 100%;
   }
 
+  .index-section-4 .tarif, .index-section-4 .price {
+    white-space: nowrap;
+  }
+
+  .index-section-cool-bg {
+    margin-top: 100px;
+  }
+
+  .vkrCoolBlock {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+  }
+
+  .vkrCoolBlockImg {
+    margin-top: -10px;
+    z-index: 6;
+  }
+
+  .vkrCoolBlockImg img {
+    width: 52%;
+    float: right;
+  }
+
+  .no-gutters {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+  }
+
+  .logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+  }
+
+  .logo-img-div {
+    margin-right: 15px;
+  }
+
+  .footer .logo-text {
+    padding-left: 0 !important;
+  }
+
+  .pad1200 {
+    padding-left: 20px !important;
+  }
+
+  .pad1200 .phones.font-bold {
+    display: flex !important;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+
+
 }
