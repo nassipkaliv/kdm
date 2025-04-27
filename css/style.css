@@ -80,6 +80,10 @@ a {
   transition: all 0.3s;
 }
 
+a:hover {
+  color: #E66950 !important;
+}
+
 p {
   margin-bottom: 0;
 }
@@ -352,6 +356,14 @@ svg:not(:root) {
   margin: 0 auto;
 }
 
+.blue-button:hover, .blue-button-link:hover {
+  color: #fff !important;
+  background-color: #0C6ED1;
+  -webkit-box-shadow: 0px 8px 14px rgba(35, 68, 101, 0.3);
+  -moz-box-shadow: 0px 8px 14px rgba(35, 68, 101, 0.3);
+  box-shadow: 0px 8px 14px rgba(35, 68, 101, 0.3);
+}
+
 .orange-button, .orange-button-link {
   background: #E66950;
   border-radius: 6px;
@@ -385,6 +397,11 @@ svg:not(:root) {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
+}
+
+.orange-button:hover, .orange-button-link:hover {
+  color: #ffffff;
+  background-color: #EC5A3D;
 }
 
 .index-section-1 .text-block {
@@ -794,7 +811,7 @@ section.topTarifSect .col-12 {
 }
 
 .price-link {
-  color: #0080FF;
+  color: #0080FF !important;
   border-bottom: 2px solid;
 }
 
@@ -1182,6 +1199,16 @@ section.topTarifSect .col-12 {
   color: #ffffff;
 }
 
+.reviewSliderItem .videoButtonPlay:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: #0C6ED1;
+}
+
+.reviewSliderItem .videoButtonPlay:hover .videoButtonSvg path {
+  fill: #fff !important;
+}
+
 .videoItemBlockOrange {
   background: #E66950;
 }
@@ -1195,8 +1222,8 @@ section.topTarifSect .col-12 {
 }
 
 .videoButtonPlayBlack {
-  border: 1px solid #262626;
-  color: #262626;
+  border: 1px solid #262626 !important;
+  color: #262626 !important;
 }
 
 .index-section-5 {
