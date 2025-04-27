@@ -1653,3 +1653,89 @@ div#scrollHeaderMenu .bottomNewHeaderBlock {
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+
+.scrollButtonWrap {
+  position: fixed;
+  width: 100%;
+  bottom: 45px;
+  height: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+#scrollButtonWrap.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.scrollButtonWrap.newscrollButtonWrap {
+  bottom: 83px;
+}
+
+.scrollButtonWrap>.container {
+  height: 0;
+  transform: translateY(-23px);
+}
+
+.scrollButtonBlock {
+  background: rgba(59, 59, 59, 0.8);
+  backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.scrollButtonBlockLine {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-fab {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: #E66950;
+  box-shadow: 4px 4px 12px rgba(238, 115, 90, 0.4);
+  color: #fff;
+  z-index: 25;
+}
+
+.vkrTopButtonHead {
+  position: static;
+  padding: 13px 17px;
+  margin-right: 0px;
+  margin-left: -10px;
+  transition: all 0.3s;
+  box-shadow: 4px 4px 12px rgba(238, 115, 90, 0.4);
+  border-radius: 6px;
+  outline: none;
+}
+
+.scrollButtonWrap .vkrTopButtonHead {
+  line-height: 1;
+  padding: 16px 17px;
+}
+
+.scrollButtonBlock .vkrTopButtonHead {
+  margin-left: 0;
+}
+
+.scrollButtonBlockLine .vkrTopButtonHead {
+  padding-bottom: 12px !important;
+}
+
+.scrollButtonBlockText {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 5px;
+}
