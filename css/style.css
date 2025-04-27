@@ -1791,7 +1791,16 @@ br.onlyMob {
   opacity: 0.5;
 }
 
+.index-section-5 .button .blue-button {
+  max-width: 100%;
+}
+
 @media (max-width: 1200px) {
+
+  .button360 {
+    min-width: auto;
+  }
+
   .newHeaderWrap {
       position: relative;
       top: 0;
@@ -2376,6 +2385,14 @@ br.onlyMob {
     margin-bottom: -30px;
     max-width: 350px;
   }
+  
+  .newHeaderLink .logo-text .logo-big-text {
+    line-height: 21px;
+  }
+
+  .newHeaderLink .logo-text {
+    padding: 0;
+  }
 }
 
 @media (max-width: 990px) {
@@ -2615,6 +2632,14 @@ br.onlyMob {
     font-size: 16px;
   }
 
+  .header-top {
+    padding: 8px;
+  }
+
+  .buttonMobMenu {
+    margin-right: 16px;
+  }
+
 }
 
 @media (max-width: 768px) and (min-width: 600px) {
@@ -2642,4 +2667,126 @@ br.onlyMob {
     width: 100%;
   }
 
+}
+
+@media (max-width: 576px) {
+  .index-section-1 .text-block {
+      margin-top: 0;
+  }
+
+  .index-section-1 {
+    padding-top: 16px;
+  }
+
+  .mobTopImgBlock {
+    max-width: 260px;
+    width: 100%;
+    right: 40px;
+    top: 0px;
+    margin-bottom: -50px;
+    height: 285px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobTopImgBlock {
+      top: -2px;
+      right: 50px;
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: -15px;
+      margin-top: -95px;
+      height: 340px;
+  }
+
+  .index-section-cool-bg {
+    margin-top: -22px;
+  }
+
+  .vkrCoolBlock {
+    text-align: center;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-bottom: 265px;
+  }
+
+  .index-section-cool-bg .title_font_huge {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+  }
+
+  .index-section-cool .content-text {
+    line-height: 24px;
+  }
+
+  .blue-button, .blue-button-link, .vkrTopButtonHead.vkrIndexDopBanner {
+    max-width: 100%;
+  }
+
+  .vkrCoolBlockImg img {
+    width: 100%;
+  }
+
+  .mobFooterBg {
+    padding-bottom: 13px;
+  }
+
+  .logo-img-div.float-left img {
+    width: 40px;
+  }
+
+  .logo-img-div.float-left p {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .footer .logo-text p:nth-child(1) {
+    font-size: 10px;
+  }
+  
+  .footer .logo-text p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .footer .logo-text p:nth-child(3) {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+  .footer .col-12:nth-of-type(2) p, .footer .politicaMob {
+    font-size: 10px;
+  }
+
+  .address span {
+    width: 100%;
+    display: block;
+  }
+
+  .mobSocFooter a {
+    width: 24px !important;
+  }
+
+  .logo-img-div.float-left img {
+    width: 40px;
+  }
+
+  .logo-img-div {
+    width: 45px;
+    margin-right: 6px;
+  }
+
+  .logo-text .logo-big-text {
+    font-size: 18px;
+  }
+
+  .swiper {
+    height: 490px;
+  }
+}
+
+@media (max-width: 330px) {
+  footer .logo {
+    padding: 0;
+  }
 }
