@@ -22,3 +22,17 @@ window.addEventListener('scroll', function() {
       marketBlock.classList.remove('active');
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const button = document.querySelector('.buttonMobMenu');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  const bgShadow = document.querySelector('.bgShadow');
+  const header = document.querySelector('.header');
+
+  button.addEventListener('click', function() {
+      mobileMenu.classList.toggle('mobile-menu_active');
+      bgShadow.classList.toggle('active');
+      button.classList.toggle('active');
+      header.classList.toggle('active')
+  });
+});
